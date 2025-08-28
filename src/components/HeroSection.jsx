@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Link } from "lucide-react";
 
 export default function HeroSection() {
   return (
@@ -42,16 +43,9 @@ export default function HeroSection() {
           </motion.p>
 
           {/* WhatsApp CTA */}
-          <motion.a
-            href="/order"
-            rel="noopener noreferrer"
-            className="px-8 py-3 bg-yellow-500 text-green-900 font-bold rounded-xl shadow-lg hover:bg-yellow-400 transition"
-            initial={{ opacity: 0, y: 50 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1, delay: 0.8 }}
-          >
-            Order Now
-          </motion.a>
+          <Link to="/order">
+              <button className="px-6 py-3 bg-yellow-400 text-green-900 font-semibold rounded-xl shadow hover:scale-105 transform transition">Order Now</button>
+            </Link>
         </div>
 
         {/* Right Side - Two Images */}
