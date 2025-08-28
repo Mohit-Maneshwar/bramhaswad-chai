@@ -7,7 +7,7 @@ function App() {
   return (
     <Router>
       <NavBar />
-      <AppRoutes />
+      <AppRoutes  className="w-full" />
       <Footer />
     </Router>
   );

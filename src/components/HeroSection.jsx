@@ -10,7 +10,7 @@ export default function HeroSection() {
           backgroundImage: "url('/images/img1.jpg')",
           backgroundSize: "cover",
           backgroundPosition: "center",
-          filter: "blur(8px)", // 👈 blur effect
+          filter: "blur(8px)", 
         }}
       ></div>
 
@@ -43,7 +43,7 @@ export default function HeroSection() {
 
           {/* WhatsApp CTA */}
           <motion.a
-            href="https://wa.me/919876543210?text=I%20want%20to%20order%20Bramhaswad%20Rajvadi%20Kadak%20Chai"
+            href="/order"
             target="_blank"
             rel="noopener noreferrer"
             className="px-8 py-3 bg-yellow-500 text-green-900 font-bold rounded-xl shadow-lg hover:bg-yellow-400 transition"
@@ -51,7 +51,7 @@ export default function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.8 }}
           >
-            Order on WhatsApp
+            Order Now
           </motion.a>
         </div>
 
