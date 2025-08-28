@@ -44,7 +44,6 @@ export default function HeroSection() {
           {/* WhatsApp CTA */}
           <motion.a
             href="/order"
-            target="_blank"
             rel="noopener noreferrer"
             className="px-8 py-3 bg-yellow-500 text-green-900 font-bold rounded-xl shadow-lg hover:bg-yellow-400 transition"
             initial={{ opacity: 0, y: 50 }}
