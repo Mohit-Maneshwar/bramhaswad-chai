@@ -11,7 +11,7 @@ export default function OrderSection() {
 
   const product = {
     name: "Rajvadi Kadak Chai - 1Kg",
-    price: 450,
+    price: 499,
     desc: "A premium royal blend with strong aroma and bold taste.",
     img: "/images/bg.png",
   }
